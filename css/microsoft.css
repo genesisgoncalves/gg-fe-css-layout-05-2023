@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    margin: 0px;
+    background-image: url(../img/th.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.navbar-content {
+    display: flex;
+}
+
+.logo-navbar {
+    width: 230px;
+    height: auto;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+}
