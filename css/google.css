@@ -13,7 +13,7 @@ body {
 }
 
 #footer {
-    height: 14vh;
+    height: 15vh;
     background-color: rgb(243, 243, 243);
 }
 
@@ -92,8 +92,14 @@ body {
 .main-center {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 30px;
+}
+
+#search {
+    border: none;
+    width: 80%;
 }
 
 .barra {
@@ -101,11 +107,16 @@ body {
     height: 40px;
     border: gainsboro 2px solid;
     border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
 .img-barra {
     width: 20px;
     height: 20px;
+    padding: 8px;
 }
 
 .button {
